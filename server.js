@@ -32,7 +32,6 @@ app.get('/setup',function(req,res){
 
 	});
 	nick.save(function(err){
-		if(err) throw err;
 		console.log('User saved successfully');
 		res.json({success:true});
 	});
@@ -46,7 +45,7 @@ app.post('/createUser', function(req,res){
 
 	});
 	nick.save(function(err){
-		if(err) throw err;
+		
 		console.log('User saved successfully');
 		res.json({success:true});
 	});
