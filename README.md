@@ -17,6 +17,7 @@ to run the test cases
 
 to generate code coverage
 -run istanbul cover node_modules/mocha/bin/_mocha -- -R spec
+- to check code coverage goto "coverage\lcov-report\index.html"
 
 
 
